@@ -1,4 +1,5 @@
 import keys from './keys.js';
+import { getLanguage } from './local-storage.js';
 
 const keyboard = document.querySelector('.keyboard');
 
@@ -23,6 +24,8 @@ keys.forEach((key) => {
     keyElement.dataset.action = key.action;
   }
 
-  keyElement.textContent = key.keyEn || key.key;
+  const keyLanguage = getLanguage() === 'en' ? key.keyEn : key.keyRu;
+  keyElement.textContent = keyLanguage || key.key;
+
   keyboard.append(keyElement);
 });
