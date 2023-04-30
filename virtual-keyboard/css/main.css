@@ -14,6 +14,10 @@ html {
   border: 0;
 }
 
+button {
+  outline: none;
+}
+
 :root {
   --key-width: 40px;
   --key-height: 40px;
@@ -36,6 +40,10 @@ body {
   resize: none;
 }
 
+.text:focus-visible {
+  outline: none;
+}
+
 .keyboard {
   width: 698px;
   display: flex;
@@ -51,7 +59,13 @@ body {
   color: aliceblue;
   background-color: black;
   cursor: pointer;
-  transition: 0.3s linear;
+  transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.key:active,
+.key_pressed {
+  scale: 0.9;
+  opacity: 0.5;
 }
 
 .space {

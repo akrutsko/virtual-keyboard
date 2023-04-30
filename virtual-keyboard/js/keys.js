@@ -1,194 +1,194 @@
 export default [
   {
-    code: 'Backquote', key: '`', shiftEn: '~', keyRu: 'ё', shiftRu: 'Ё', action: '',
+    code: 'Backquote', keyEn: '`', shiftEn: '~', keyRu: 'ё', shiftRu: 'Ё',
   },
   {
-    code: 'Digit1', key: '1', shiftEn: '!', keyRu: '1', shiftRu: '!', action: '',
+    code: 'Digit1', keyEn: '1', shiftEn: '!', keyRu: '1', shiftRu: '!',
   },
   {
-    code: 'Digit2', key: '2', shiftEn: '@', keyRu: '2', shiftRu: '\\', action: '',
+    code: 'Digit2', keyEn: '2', shiftEn: '@', keyRu: '2', shiftRu: '\\',
   },
   {
-    code: 'Digit3', key: '3', shiftEn: '#', keyRu: '3', shiftRu: '№', action: '',
+    code: 'Digit3', keyEn: '3', shiftEn: '#', keyRu: '3', shiftRu: '№',
   },
   {
-    code: 'Digit4', key: '4', shiftEn: '$', keyRu: '4', shiftRu: '; ', action: '',
+    code: 'Digit4', keyEn: '4', shiftEn: '$', keyRu: '4', shiftRu: '; ',
   },
   {
-    code: 'Digit5', key: '5', shiftEn: '% ', keyRu: '5', shiftRu: '% ', action: '',
+    code: 'Digit5', keyEn: '5', shiftEn: '% ', keyRu: '5', shiftRu: '% ',
   },
   {
-    code: 'Digit6', key: '6', shiftEn: '^ ', keyRu: '6', shiftRu: ': ', action: '',
+    code: 'Digit6', keyEn: '6', shiftEn: '^ ', keyRu: '6', shiftRu: ': ',
   },
   {
-    code: 'Digit7', key: '7', shiftEn: '& ', keyRu: '7', shiftRu: '?', action: '',
+    code: 'Digit7', keyEn: '7', shiftEn: '& ', keyRu: '7', shiftRu: '?',
   },
   {
-    code: 'Digit8', key: '8', shiftEn: '* ', keyRu: '8', shiftRu: '* ', action: '',
+    code: 'Digit8', keyEn: '8', shiftEn: '* ', keyRu: '8', shiftRu: '* ',
   },
   {
-    code: 'Digit9', key: '9', shiftEn: '(', keyRu: '9', shiftRu: '(', action: '',
+    code: 'Digit9', keyEn: '9', shiftEn: '(', keyRu: '9', shiftRu: '(',
   },
   {
-    code: 'Digit0', key: '0', shiftEn: ')', keyRu: '0', shiftRu: ') ', action: '',
+    code: 'Digit0', keyEn: '0', shiftEn: ')', keyRu: '0', shiftRu: ') ',
   },
   {
-    code: 'Minus', key: ' - ', shiftEn: '_', keyRu: ' - ', shiftRu: '_', action: '',
+    code: 'Minus', keyEn: '-', shiftEn: '_', keyRu: '-', shiftRu: '_',
   },
   {
-    code: 'Equal', key: ' = ', shiftEn: ' + ', keyRu: ' = ', shiftRu: ' + ', action: '',
+    code: 'Equal', keyEn: '=', shiftEn: '+', keyRu: '=', shiftRu: ' + ',
   },
   {
-    code: 'Backspace', key: '⟵', class: 'backspace', action: '',
+    code: 'Backspace', key: '⟵', class: 'backspace', action: true,
   },
   {
-    code: 'Tab', key: '⇥ Tab', class: 'tab', action: '',
+    code: 'Tab', key: '⇥ Tab', class: 'tab',
   },
   {
-    code: 'KeyQ', key: 'q', shiftEn: 'Q', keyRu: 'й', shiftRu: 'Й', action: '',
+    code: 'KeyQ', keyEn: 'q', shiftEn: 'Q', keyRu: 'й', shiftRu: 'Й',
   },
   {
-    code: 'KeyW', key: 'w', shiftEn: 'W', keyRu: 'ц', shiftRu: 'Ц', action: '',
+    code: 'KeyW', keyEn: 'w', shiftEn: 'W', keyRu: 'ц', shiftRu: 'Ц',
   },
   {
-    code: 'KeyE', key: 'e', shiftEn: 'E', keyRu: 'у', shiftRu: 'У', action: '',
+    code: 'KeyE', keyEn: 'e', shiftEn: 'E', keyRu: 'у', shiftRu: 'У',
   },
   {
-    code: 'KeyR', key: 'r', shiftEn: 'R', keyRu: 'к', shiftRu: 'К', action: '',
+    code: 'KeyR', keyEn: 'r', shiftEn: 'R', keyRu: 'к', shiftRu: 'К',
   },
   {
-    code: 'KeyT', key: 't', shiftEn: 'T', keyRu: 'е', shiftRu: 'Е', action: '',
+    code: 'KeyT', keyEn: 't', shiftEn: 'T', keyRu: 'е', shiftRu: 'Е',
   },
   {
-    code: 'KeyY', key: 'y', shiftEn: 'Y', keyRu: 'н', shiftRu: 'Н', action: '',
+    code: 'KeyY', keyEn: 'y', shiftEn: 'Y', keyRu: 'н', shiftRu: 'Н',
   },
   {
-    code: 'KeyU', key: 'u', shiftEn: 'U', keyRu: 'г', shiftRu: 'Г', action: '',
+    code: 'KeyU', keyEn: 'u', shiftEn: 'U', keyRu: 'г', shiftRu: 'Г',
   },
   {
-    code: 'KeyI', key: 'i', shiftEn: 'I', keyRu: 'ш', shiftRu: 'Ш', action: '',
+    code: 'KeyI', keyEn: 'i', shiftEn: 'I', keyRu: 'ш', shiftRu: 'Ш',
   },
   {
-    code: 'KeyO', key: 'o', shiftEn: 'O', keyRu: 'щ', shiftRu: 'Щ', action: '',
+    code: 'KeyO', keyEn: 'o', shiftEn: 'O', keyRu: 'щ', shiftRu: 'Щ',
   },
   {
-    code: 'KeyP', key: 'p', shiftEn: 'P', keyRu: 'з', shiftRu: 'З', action: '',
+    code: 'KeyP', keyEn: 'p', shiftEn: 'P', keyRu: 'з', shiftRu: 'З',
   },
   {
-    code: 'BracketLeft', key: '[', shiftEn: '{ ', keyRu: 'х', shiftRu: 'Х', action: '',
+    code: 'BracketLeft', keyEn: '[', shiftEn: '{ ', keyRu: 'х', shiftRu: 'Х',
   },
   {
-    code: 'BracketRight', key: ']', shiftEn: '}', keyRu: 'ъ', shiftRu: 'Ъ', action: '',
+    code: 'BracketRight', keyEn: ']', shiftEn: '}', keyRu: 'ъ', shiftRu: 'Ъ',
   },
   {
-    code: 'Backslash', key: '\\', shiftEn: ' | ', keyRu: '\\', shiftRu: ' / ', action: '',
+    code: 'Backslash', keyEn: '\\', shiftEn: ' | ', keyRu: '\\', shiftRu: ' / ',
   },
   {
-    code: 'Delete', key: 'Del', action: '',
+    code: 'Delete', key: 'Del', action: true,
   },
   {
-    code: 'CapsLock', key: '⇪ Caps', class: 'capslock', action: '',
+    code: 'CapsLock', key: '⇪ Caps', class: 'capslock',
   },
   {
-    code: 'KeyA', key: 'a', shiftEn: 'A', keyRu: 'ф', shiftRu: 'Ф', action: '',
+    code: 'KeyA', keyEn: 'a', shiftEn: 'A', keyRu: 'ф', shiftRu: 'Ф',
   },
   {
-    code: 'KeyS', key: 's', shiftEn: 'S', keyRu: 'ы', shiftRu: 'Ы', action: '',
+    code: 'KeyS', keyEn: 's', shiftEn: 'S', keyRu: 'ы', shiftRu: 'Ы',
   },
   {
-    code: 'KeyD', key: 'd', shiftEn: 'D', keyRu: 'в', shiftRu: 'В', action: '',
+    code: 'KeyD', keyEn: 'd', shiftEn: 'D', keyRu: 'в', shiftRu: 'В',
   },
   {
-    code: 'KeyF', key: 'f', shiftEn: 'F', keyRu: 'а', shiftRu: 'А', action: '',
+    code: 'KeyF', keyEn: 'f', shiftEn: 'F', keyRu: 'а', shiftRu: 'А',
   },
   {
-    code: 'KeyG', key: 'g', shiftEn: 'G', keyRu: 'п', shiftRu: 'П', action: '',
+    code: 'KeyG', keyEn: 'g', shiftEn: 'G', keyRu: 'п', shiftRu: 'П',
   },
   {
-    code: 'KeyH', key: 'h', shiftEn: 'H', keyRu: 'р', shiftRu: 'Р', action: '',
+    code: 'KeyH', keyEn: 'h', shiftEn: 'H', keyRu: 'р', shiftRu: 'Р',
   },
   {
-    code: 'KeyJ', key: 'j', shiftEn: 'J', keyRu: 'о', shiftRu: 'О', action: '',
+    code: 'KeyJ', keyEn: 'j', shiftEn: 'J', keyRu: 'о', shiftRu: 'О',
   },
   {
-    code: 'KeyK', key: 'k', shiftEn: 'K', keyRu: 'л', shiftRu: 'Л', action: '',
+    code: 'KeyK', keyEn: 'k', shiftEn: 'K', keyRu: 'л', shiftRu: 'Л',
   },
   {
-    code: 'KeyL', key: 'l', shiftEn: 'L', keyRu: 'д', shiftRu: 'Д', action: '',
+    code: 'KeyL', keyEn: 'l', shiftEn: 'L', keyRu: 'д', shiftRu: 'Д',
   },
   {
-    code: 'Semicolon', key: '; ', shiftEn: ': ', keyRu: 'ж', shiftRu: 'Ж', action: '',
+    code: 'Semicolon', keyEn: '; ', shiftEn: ': ', keyRu: 'ж', shiftRu: 'Ж',
   },
   {
-    code: 'Quote', key: '\\', shiftEn: '\\', keyRu: 'э', shiftRu: 'Э', action: '',
+    code: 'Quote', keyEn: '\\', shiftEn: '\\', keyRu: 'э', shiftRu: 'Э',
   },
   {
-    code: 'Enter', key: 'Enter', class: 'enter', action: '',
+    code: 'Enter', key: 'Enter', class: 'enter', action: true,
   },
   {
-    code: 'ShiftLeft', key: '⇧ Shift', class: 'shiftLeft', action: '',
+    code: 'ShiftLeft', key: '⇧ Shift', class: 'shiftLeft',
   },
   {
-    code: 'KeyZ', key: 'z', shiftEn: 'Z', keyRu: 'я', shiftRu: 'Я', action: '',
+    code: 'KeyZ', keyEn: 'z', shiftEn: 'Z', keyRu: 'я', shiftRu: 'Я',
   },
   {
-    code: 'KeyX', key: 'x', shiftEn: 'X', keyRu: 'ч', shiftRu: 'Ч', action: '',
+    code: 'KeyX', keyEn: 'x', shiftEn: 'X', keyRu: 'ч', shiftRu: 'Ч',
   },
   {
-    code: 'KeyC', key: 'c', shiftEn: 'C', keyRu: 'с', shiftRu: 'С', action: '',
+    code: 'KeyC', keyEn: 'c', shiftEn: 'C', keyRu: 'с', shiftRu: 'С',
   },
   {
-    code: 'KeyV', key: 'v', shiftEn: 'V', keyRu: 'м', shiftRu: 'М', action: '',
+    code: 'KeyV', keyEn: 'v', shiftEn: 'V', keyRu: 'м', shiftRu: 'М',
   },
   {
-    code: 'KeyB', key: 'b', shiftEn: 'B', keyRu: 'и', shiftRu: 'И', action: '',
+    code: 'KeyB', keyEn: 'b', shiftEn: 'B', keyRu: 'и', shiftRu: 'И',
   },
   {
-    code: 'KeyN', key: 'n', shiftEn: 'N', keyRu: 'т', shiftRu: 'Т', action: '',
+    code: 'KeyN', keyEn: 'n', shiftEn: 'N', keyRu: 'т', shiftRu: 'Т',
   },
   {
-    code: 'KeyM', key: 'm', shiftEn: 'M', keyRu: 'ь', shiftRu: 'Ь', action: '',
+    code: 'KeyM', keyEn: 'm', shiftEn: 'M', keyRu: 'ь', shiftRu: 'Ь',
   },
   {
-    code: 'Comma', key: ', ', shiftEn: '<', keyRu: 'б', shiftRu: 'Б', action: '',
+    code: 'Comma', keyEn: ', ', shiftEn: '<', keyRu: 'б', shiftRu: 'Б',
   },
   {
-    code: 'Period', key: '.', shiftEn: '> ', keyRu: 'ю', shiftRu: 'Ю', action: '',
+    code: 'Period', keyEn: '.', shiftEn: '> ', keyRu: 'ю', shiftRu: 'Ю',
   },
   {
-    code: 'Slash', key: '/', shiftEn: '?', keyRu: '.', shiftRu: ',', action: '',
+    code: 'Slash', keyEn: '/', shiftEn: '?', keyRu: '.', shiftRu: ',',
   },
   {
-    code: 'ArrowUp', key: '▲', class: 'service', action: '',
+    code: 'ArrowUp', key: '▲', class: 'service', action: true,
   },
   {
-    code: 'ShiftRight', key: '⇧ Shift', class: 'shiftRight', action: '',
+    code: 'ShiftRight', key: '⇧ Shift', class: 'shiftRight',
   },
   {
-    code: 'ControlLeft', key: 'Ctrl', action: 'service',
+    code: 'ControlLeft', key: 'Ctrl',
   },
   {
-    code: 'MetaLeft', key: 'Win', action: 'service',
+    code: 'MetaLeft', key: 'Win',
   },
   {
-    code: 'AltLeft', key: 'Alt', action: 'service',
+    code: 'AltLeft', key: 'Alt',
   },
   {
-    code: 'Space', key: ' ', shiftEn: ' ', keyRu: ' ', shiftRu: ' ', class: 'space', action: '',
+    code: 'Space', key: ' ', class: 'space',
   },
   {
-    code: 'AltRight', key: 'Alt', action: 'service',
+    code: 'AltRight', key: 'Alt',
   },
   {
-    code: 'ArrowLeft', key: '◄', action: 'service',
+    code: 'ArrowLeft', key: '◄', action: true,
   },
   {
-    code: 'ArrowDown', key: '▼', action: 'service',
+    code: 'ArrowDown', key: '▼', action: true,
   },
   {
-    code: 'ArrowRight', key: '►', action: 'service',
+    code: 'ArrowRight', key: '►', action: true,
   },
   {
-    code: 'ControlRight', key: 'Ctrl', action: 'service',
+    code: 'ControlRight', key: 'Ctrl',
   },
 ];
