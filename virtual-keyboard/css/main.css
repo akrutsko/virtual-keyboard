@@ -14,6 +14,12 @@ html {
   border: 0;
 }
 
+:root {
+  --key-width: 40px;
+  --key-height: 40px;
+  --key-gap: 6px;
+}
+
 body {
   background-color: azure;
   font-size: 2rem;
@@ -28,4 +34,49 @@ body {
 
 .text {
   resize: none;
+}
+
+.keyboard {
+  width: 698px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--key-gap);
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
+
+.key {
+  width: var(--key-width);
+  height: var(--key-height);
+  color: aliceblue;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.space {
+  width: 330px;
+}
+
+.backspace,
+.capslock,
+.shiftLeft {
+  width: 100px;
+}
+
+.enter,
+.shiftRight {
+  width: 86px;
+}
+
+.tab {
+  width: 54px;
+}
+
+@media (hover: hover) {
+
+  .key:hover {
+    background-color: gray;
+  }
+
 }
