@@ -1,1 +1,1 @@
-t = 10;
+import './js/keyboard.js';
