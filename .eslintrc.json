@@ -10,21 +10,10 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "rules": {},
-  "overrides": [
-    {
-      "files": [
-        "*.js"
-      ],
-      "rules": {
-        "import/extensions": [
-          "error",
-          "always",
-          {
-            "ignorePackages": true
-          }
-        ]
-      }
-    }
+  "rules": {
+    "import/extensions": "off"
+  },
+  "ignorePatterns": [
+    "node_modules"
   ]
 }
