@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  line-height: 1.15;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+button {
+  outline: none;
+}
+
+:root {
+  --key-width: 40px;
+  --key-height: 40px;
+  --key-gap: 6px;
+}
+
+body {
+  background-color: azure;
+  font-size: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.text {
+  resize: none;
+}
+
+.text:focus-visible {
+  outline: none;
+}
+
+.keyboard {
+  width: 698px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--key-gap);
+  outline: 2px solid black;
+  outline-offset: 2px;
+}
+
+.key {
+  width: var(--key-width);
+  height: var(--key-height);
+  color: aliceblue;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.key:active,
+.key_pressed {
+  scale: 0.9;
+  opacity: 0.5;
+}
+
+.space {
+  width: 330px;
+}
+
+.backspace,
+.capslock,
+.shiftLeft {
+  width: 100px;
+}
+
+.enter,
+.shiftRight {
+  width: 86px;
+}
+
+.tab {
+  width: 54px;
+}
+
+@media (hover: hover) {
+
+  .key:hover {
+    background-color: gray;
+  }
+
+}
